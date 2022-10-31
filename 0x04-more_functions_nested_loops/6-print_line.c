@@ -4,7 +4,7 @@
  * print_line - prints a strainght line using '_'
  * @n: the num of '_' to be printed
  */
-void print_line(int n);
+void print_line(int n)
 {
 	int len;
 
@@ -13,5 +13,6 @@ void print_line(int n);
 		for (len = 0; len < n; len++)
 			_putchar('_');
 	}
+
 	_putchar('\n');
 }
